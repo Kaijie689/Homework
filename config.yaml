@@ -1,0 +1,20 @@
+# Sample ID
+SRR_ID: "SRR2093937"
+
+# Directories for SRA files, FASTQ files, QC reports, etc.
+SRA_DIR: "sra"
+FASTQ_DIR: "fastq"
+QC_DIR: "qc"
+REFERENCE_GENOME: "reference/Osativa.fasta"
+REFERENCE_GFF3: "reference/all.gff3"
+
+# URL for the reference genome and annotation
+REFERENCE_GENOME_URL = "https://rice.uga.edu/pub/data/Eukaryotic_Projects/o_sativa/annotation_dbs/pseudomolecules/version_7.0/all.dir/all.con"
+ANNOTATION_FILE_URL = "https://rice.uga.edu/pub/data/Eukaryotic_Projects/o_sativa/annotation_dbs/pseudomolecules/version_7.0/all.dir/all.gff3"
+
+# Number of threads for parallel processing
+THREADS: 4
+
+# HISAT2 index directory and prefix
+INDEX_DIR: "index/genome_indices"
+GENOME_INDEX_PREFIX: "Osativa_index"
